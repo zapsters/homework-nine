@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: monospace;
+  color: whitesmoke;
+  background-color: rgb(19, 19, 20);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* End of Reset */
+.pieces {
+  z-index: 300;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url("../images/pieces/Asset 1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(45%) sepia(67%) saturate(6200%) hue-rotate(140deg) brightness(89%) opacity(100%) contrast(108%);
+  transition: left 0.5s, top 0.5s;
+}
+
+nav {
+  z-index: 30;
+  position: relative;
+  height: 60px;
+  background-color: #0e0c0f;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.active {
+  color: #11a878;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#screen {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+}
+#screen #app,
+#screen #background {
+  width: 100%;
+  position: absolute;
+}
+#screen #background:before {
+  content: " ";
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  opacity: 1;
+  background-image: url("../images/Artboard 1.png");
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+  background-size: cover;
+  filter: invert(45%) sepia(67%) saturate(6200%) hue-rotate(140deg) brightness(89%) opacity(20%) contrast(108%);
+  pointer-events: none;
+}
+
+#app {
+  padding: 30px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 80px);
+}
+
+/*# sourceMappingURL=styles.css.map */

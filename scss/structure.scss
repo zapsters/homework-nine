@@ -1,0 +1,39 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: monospace;
+  color: whitesmoke;
+  background-color: rgb(19, 19, 20);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+/* End of Reset */
+
+.pieces {
+  z-index: 300;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url("../images/pieces/Asset\ 1.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(45%) sepia(67%) saturate(6200%) hue-rotate(140deg)
+    brightness(89%) opacity(100%) contrast(108%);
+  transition: left 0.5s, top 0.5s;
+}

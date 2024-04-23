@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 542.95 685.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#New_Pattern_Swatch_3);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <pattern id="New_Pattern_Swatch_3" data-name="New Pattern Swatch 3" x="0" y="0" width="201.36" height="201.36" patternTransform="translate(-4951.31 -8495.29) rotate(-90) scale(.23)" patternUnits="userSpaceOnUse" viewBox="0 0 201.36 201.36">
+      <g>
+        <rect class="cls-1" width="201.36" height="201.36"/>
+        <circle class="cls-3" cx="100.68" cy="96.48" r="40.54" transform="translate(-19.52 25.78) rotate(-13.32)"/>
+      </g>
+    </pattern>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-2" width="542.95" height="685.81"/>
+  </g>
+</svg>

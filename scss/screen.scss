@@ -1,0 +1,29 @@
+#screen {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+
+  #app,
+  #background {
+    width: 100%;
+    position: absolute;
+  }
+
+  #background:before {
+    content: " ";
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    opacity: 1;
+    background-image: url("../images/Artboard\ 1.png");
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    background-size: cover;
+    filter: invert(45%) sepia(67%) saturate(6200%) hue-rotate(140deg)
+      brightness(89%) opacity(20%) contrast(108%);
+
+    pointer-events: none;
+  }
+}
