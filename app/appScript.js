@@ -30,7 +30,7 @@ $(document).ready(function () {
     var rand = Math.floor(Math.random() * 18 + 1);
     $(".pieces").css(
       "background-image",
-      `url('../images/pieces/Asset ${rand}.svg')`
+      `url('./images/pieces/Asset ${rand}.svg')`
     );
   });
 });
